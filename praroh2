@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Hello RNSIT</title>
+		<script>
+			function greetFunction(){
+				var x="";
+				var time=new Date().getHours();
+				if (time<16){
+					x= "Good day";
+				}
+				else{
+					x="Good evening";
+				}
+				alert(x);
+			}
+		</script>
+	</head>
+	<body background="https://lh4.googleusercontent.com/-nf281Ejyjcw/U_xZOfeyJ3I/AAAAAAABdeQ/YsTLsnk0d2M/w426-h324/405.gif">
+		<br/>
+		<form method="post">
+			<table border=1>
+				<tr>
+					<td>Username</td>
+					<td><input type="text" id="txtUn"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" id="txtPw"/></td>
+				</tr>
+			</table>
+			<input list="gender"/>
+				<datalist id="gender">
+					<option value="Male">
+					<option value="Female">
+				</datalist>
+			<input type="submit" id="btnSubmit"/>
+			<br/>
+			<input type="button" value="Greet" id="btnGreet" onClick="greetFunction()"/>
+		</form>
+	</body>
+	<video src="" controls>Not working.</video>
+</html>

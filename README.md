@@ -1,4 +1,2 @@
-GitHub-Session-RNSIT
+Getting started with GitHub
 ====================
-
-GitHub Session at RNSIT

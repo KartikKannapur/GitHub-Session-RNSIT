@@ -1,4 +1,4 @@
-GitHub-Session-RNSIT
+GitHub 101
 ====================
 
-GitHub Session at RNSIT
+Getting Started & Hosting a Website on GitHub
